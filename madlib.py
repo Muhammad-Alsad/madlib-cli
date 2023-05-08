@@ -22,5 +22,5 @@ def parse_template(x):
 def merge(template, parts):
     return template.format(*parts)
 
-
+read_template("assets/dark_and_stormy_night_template.txt")
 
